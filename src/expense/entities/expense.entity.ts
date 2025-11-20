@@ -1,4 +1,4 @@
-import { ExpenseCategory } from 'generated/prisma';
+import { ExpenseCategory } from '@prisma/client';
 import { User } from 'src/user/entities/user.entity';
 
 export class Expense {

@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateExpenseDto } from './dto/create-expense.dto';
 import { UpdateExpenseDto } from './dto/update-expense.dto';
 import { PrismaService } from 'src/prisma/prisma.service';
-import { Expense, ExpenseCategory } from 'generated/prisma';
+import { Expense, ExpenseCategory } from '@prisma/client';
 
 @Injectable()
 export class ExpenseService {
